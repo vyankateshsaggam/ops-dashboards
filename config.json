@@ -1,0 +1,67 @@
+{
+  "app_name": "Warehouse Operations Intelligence Dashboard",
+  "company_name": "CBSE Operations",
+  "data_file": "data/current_data.xlsx",
+  "json_cache": "data/current_data.json",
+  "logo_emoji": "📦",
+  "theme": {
+    "primary_color": "#7C3AED",
+    "secondary_color": "#06B6D4",
+    "accent_color": "#F59E0B",
+    "success_color": "#10B981",
+    "danger_color": "#EF4444",
+    "gradient_1": ["#667eea", "#764ba2"],
+    "gradient_2": ["#06B6D4", "#3B82F6"],
+    "gradient_3": ["#F59E0B", "#EF4444"],
+    "gradient_4": ["#10B981", "#059669"]
+  },
+  "columns": {
+    "date": "Date",
+    "activity": "Activity",
+    "activity_details": "Activity in details",
+    "location": "Location",
+    "category": "Categoary",
+    "team_leader": "TL.1",
+    "supervisor": "SV",
+    "manpower_planned": "M.P.",
+    "planned_total_mp": "Plan - TOTAL M.P.",
+    "planned_time": "Plan - TIME",
+    "planned_qty": "Plann Qty",
+    "uom": "UOM",
+    "manpower_achieved": "M.P..1",
+    "achieved_total_mp": "Achieved - TOTAL M.P.",
+    "achieved_time": "Achieved - TIME",
+    "achieved_qty": "Achieved - QTY",
+    "percent": "Percent",
+    "remark": "REMARK",
+    "planned_pppm": "PLANNED PPPM",
+    "achieved_pppm": "ACHIEVED PPPM"
+  },
+  "users": {
+    "admin1": { "password": "podar@123", "role": "Admin" },
+    "admin2": { "password": "podar@123", "role": "Viewer" },
+    "admin3": { "password": "podar@123", "role": "Viewer" }
+  },
+  "manager_reports": [
+    {
+      "name": "SKPL Benchmark",
+      "sheet_url": "https://docs.google.com/spreadsheets/d/18Nb-AxCIfqIef2J3_eI7e1TB7IvyXMqUTL0EziQ9t1I/edit?usp=sharing"
+    },
+    {
+      "name": "CBSE Book",
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1xxozjLxWlZ45E7NIZ5HwDQZ4EdxbSOwSA2fJoFP3w2I/edit?usp=sharing"
+    },
+    {
+      "name": "Book ICSE and Other",
+      "sheet_url": "https://docs.google.com/spreadsheets/d/14UO1o6s5h0jyy2NDXX1TydLJDGPoWQiAk9MLcQYWv9I/edit?usp=sharing"
+    },
+    {
+      "name": "Distribution",
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1mHvqUloyRnYKeD74mF9lKqYjYshS2O1kDBG33dZEJuU/edit?usp=sharing"
+    },
+    {
+      "name": "Uniform",
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1LwE2RULpjLXW9-IcLk1vAXrSVqsqskjkNXLSXf3bvd4/edit?usp=sharing"
+    }
+  ]
+}
